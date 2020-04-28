@@ -1,0 +1,111 @@
+body{
+    font-family: Verdana;
+    font-size: small;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.logo_google{
+    position: absolute;
+    bottom: 250px;
+    left: 450px;
+    width: 400px;
+    height: auto;
+}
+
+.outil_recherche{
+    position: absolute;
+    bottom: 290px;
+    left: 400px;
+} 
+
+.logo_loupe{
+    height: 15px;
+    width: auto;
+}
+
+.barre_recherche{
+    height: 30px;
+    width: auto;
+    border-radius: 20px;
+    border-color: lightgray;
+    border-style: solid;
+}
+.barre_recherche:hover{
+    border-style: outset;
+    border-color: darkgray;
+    border-width: 3px;
+}
+
+.bouton_recheche{
+    position: absolute;
+    bottom: -40px;
+    left: 100px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+.bouton_recheche:hover{
+    border-color: darkgray;
+}
+
+.bouton_chance{
+    position: absolute;
+    bottom: 250px;
+    left: 650px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+.bouton_chance:hover{
+    border-color: darkgray;
+}
+
+.langue_Google{
+    position: absolute;
+    bottom: 150px;
+    left: 535px;
+}
+
+.texte_bandeau_haut{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+}
+
+.premier_bandeau_bas{
+    position: absolute;
+    bottom: 41px;
+    left: 10px;
+    background-color: whitesmoke;
+    padding-right: 94.5%;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-top-color: lightgray;
+    border-right-color: whitesmoke;
+    border-left-color: whitesmoke;
+    border-bottom-color: lightgray;
+}
+
+.second_bandeau_bas{
+    position: absolute;
+    bottom:1px;
+    left: 10px;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-top-color: lightgray;
+    border-right-color: whitesmoke;
+    border-left-color: whitesmoke;
+    border-bottom-color: lightgray;
+}
